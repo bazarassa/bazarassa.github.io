@@ -6,10 +6,21 @@ p {
 	text-align: center;
 }
 
-a.unreal {
+.unreal {
+	transition-duration: 0,5s;
+	border-radius: 8px;
+	align: center;
 	text-align: center;
 	background: black;
-	padding: 15px 32px;
+	padding: 10px 22px;
 	display: inline-block;
 	color: orange;
+	border: 1px solid black;
+	font-weight: bold;
+}
+
+.unreal:hover {
+	background-color: orange;
+	color: black;
+	border: 1px solid orange;
 }
