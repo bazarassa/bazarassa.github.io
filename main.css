@@ -1,0 +1,15 @@
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+a.unreal {
+	text-align: center;
+	background: black;
+	padding: 15px 32px;
+	display: inline-block;
+	color: orange;
+}
